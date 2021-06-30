@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todos",
+  "info": {
+    "name": "Todo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "todoItem": {
+      "type": "text"
+    },
+    "isCompleted": {
+      "type": "boolean"
+    }
+  }
+}
